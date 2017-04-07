@@ -1,9 +1,17 @@
+body {
+    background-color: #f2ecd4;
+}
+
 .elegant {
     position: relative;
     display: flex;
     flex-direction: row;
     width: 100%;
+<<<<<<< HEAD
     margin-top: 50px;
+=======
+    padding-top: 50px;
+>>>>>>> dev
 }
 
 .elegant-slide {
@@ -11,8 +19,13 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     padding:0 20px;
     margin-top:30px;
+=======
+    padding: 0 20px;
+    margin-top: 30px;
+>>>>>>> dev
     border-right: 1px solid blue;
     height: 100%;
 }
@@ -48,12 +61,20 @@ ul > .link-style {
 }
 
 ul > .link-style :hover, ul > .link-style :focus {
+<<<<<<< HEAD
     background-color: rgba(218,220,192, 0.5);
+=======
+    background-color: rgba(218, 220, 192, 0.5);
+>>>>>>> dev
 }
 
 ul .active {
     display: block;
+<<<<<<< HEAD
     background-color:#DADCC0;
+=======
+    background-color: #DADCC0;
+>>>>>>> dev
     border-radius: 8px;
 }
 
