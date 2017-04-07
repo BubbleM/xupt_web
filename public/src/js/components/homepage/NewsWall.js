@@ -11,7 +11,6 @@ class NewsWall extends Component {
             con: null
         }
     }
-
     componentDidMount() {
         var scrollWrap = this.refs.scrollWrap;
         var con = this.refs.con1;
